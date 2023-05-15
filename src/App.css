@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  background: linear-gradient(45deg, rgb(92, 92, 92) 50%, rgb(27, 27, 27) 50%);
+    color: white;
+}
+
+.footer-dark{
+  
+  color: white !important;
+}
+.footer-dark p{
+  color: white !important;
+}
+.footer-dark li a{
+  color: white !important;
+}
+
+.my-alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
