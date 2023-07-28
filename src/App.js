@@ -49,7 +49,7 @@ function App() {
   return (
     <>
      <BrowserRouter>
-        <Navbar mode={theme} toggleTheme={toggleTheme} themeBtnText="Enable Dark Mode" />
+        <Navbar mode={theme} toggleTheme={toggleTheme} themeBtnText="Enable Light Mode" />
         <Alerts alertType={alerts.type} alertText={alerts.message} />
         <Routes>
         <Route exact path='/' element={<MainArea title="Playground:" setAlerts={setAlerts} />}/>
